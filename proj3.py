@@ -10,6 +10,13 @@ if(slayers//100000!=0 and slayers//1000000==0):
 else:
 	print('Number should of six digit')
 
+class Tree(object):
+	"""docstring for Tree"""
+	def __init__(self, arg):
+		super Tree, self).__init__()
+		self.arg = arg
+		
+
 #print ((slayers%100000)*10+slayers//100000)
 
 
